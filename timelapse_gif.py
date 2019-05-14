@@ -23,7 +23,7 @@ for i in range(5):
 camera.stop_preview()
 
 # stitch all of our photos together in a continuous loop ( -loop 0)
-# showing each photo for 10 milliseconds each (-delay 10)
+# showing each photo for 10 100th's of a second (0.1 second) each (-delay 10)
 # then save it as "animation.gif"
 system(‘convert –delay 10 –loop 0 /home/pi/Desktop/photo*.jpg /home/pi/Desktop/animation.gif’)
 
